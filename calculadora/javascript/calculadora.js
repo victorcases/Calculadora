@@ -77,8 +77,8 @@ logaritmo2.addEventListener("click", function() {
 
   borrar.addEventListener("click", function (){
    let escrito = screen.value;
-    if (escrito.length >= 1){
-      escrito = escrito.slice(0,-1);
+    if (escrito.length >= 0){
+      escrito = escrito.slice(1,-1);
       screen.value = escrito;
     }
   });
